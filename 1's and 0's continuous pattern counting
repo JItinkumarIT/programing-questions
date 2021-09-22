@@ -2,3 +2,10 @@ import re
 s=input()
 r=re.findall(r"[0-1]+",s)
 print(len(r))
+
+
+"""
+solution:-
+input: 10my10njwjv5jdjhdj01
+
+output: 3
