@@ -1,0 +1,28 @@
+a=input() #100
+b=input() #11
+a=a[::-1]
+b=b[::-1]
+sum=0
+k=0
+for i in range(len(a)):
+  if(a[i]=="1"):
+    sum+=2**i
+for i in range(len(b)):
+  if(b[i]=="1"):
+    sum+=2**i
+
+a1=sum+k
+b1=bin(a1)
+c=b1[2:]
+print(c)
+
+
+
+
+"""
+SOLUTION:-
+100 # value of a
+11 # value of b
+111 #sum of a and b store in C so it is output or c
+
+"""
