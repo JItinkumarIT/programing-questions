@@ -1,0 +1,4 @@
+import re
+s=input()
+r=re.findall(r"[0-1]+",s)
+print(len(r))
